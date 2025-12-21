@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from .height import normalize_gender, to_cm, predict_height as predict_height_impl
+from height import normalize_gender, to_cm, predict_height as predict_height_impl
 
 app = Flask(__name__)
 
