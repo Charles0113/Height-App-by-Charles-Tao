@@ -106,11 +106,3 @@ Deployment and security notes
 - Configure logging and monitoring in production (gunicorn logs / container
 	logs), and set up health checks against `/health`.
 
-Checklist before deploying
-
-- [ ] Run `pytest` locally and ensure all tests pass.
-- [ ] Pin dependency versions if you need reproducible builds (`pip freeze`).
-- [ ] Verify environment variables are set in your deployment target.
-- [ ] If using Docker, test the container locally before push.
-
-If you want, I can also add a short `run.sh` script or commit this README update for you.
